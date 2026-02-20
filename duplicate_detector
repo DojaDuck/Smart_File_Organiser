@@ -1,0 +1,17 @@
+from utils import get_file_hash
+
+def detect_duplicates(files):
+    hash_map = {}
+    duplicates = []
+
+    for file in files:
+        try:
+            file_hash = get_file_hash(file["path"])
+            if file_hash in hash_map:
+                duplicates.append(file)
+            else:
+                hash_map[file_hash] = file
+        except Exception:
+            continue
+
+    return duplicates
