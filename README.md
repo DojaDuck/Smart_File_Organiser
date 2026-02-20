@@ -14,7 +14,7 @@ This project demonstrates structured application design, file system manipulatio
 • Fully testable with pytest
 
 **Project Structure**
-smart-file-organizer/
+smart-file-organiser/
 │
 ├── app/
 │   ├── main.py
@@ -36,8 +36,8 @@ smart-file-organizer/
 
 **Installation**
 1. Clone the repository
-git clone https://github.com/yourusername/smart-file-organizer.git
-cd smart-file-organizer
+git clone https://github.com/yourusername/smart-file-organiser.git
+cd smart-file-organiser
 2. Create a virtual environment (recommended)
 Windows:
 python -m venv venv
@@ -75,7 +75,7 @@ Delete
 Skip
 
 All actions are logged in:
-organizer.log
+organiser.log
 
 Your organized files will appear inside:
 
