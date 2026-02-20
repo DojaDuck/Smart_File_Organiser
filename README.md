@@ -59,15 +59,19 @@ smart-file-organiser/
 └── README.md
 
 **Installation**
+
 1. Clone the repository
 git clone https://github.com/yourusername/smart-file-organiser.git
 cd smart-file-organiser
+
 2. Create a virtual environment (recommended)
 Windows:
 python -m venv venv
 venv\Scripts\activate
+
 3. Install dependencies
 pip install -r requirements.txt
+
 **How to Use the Application**
 
 Run the organiser from the root directory:
