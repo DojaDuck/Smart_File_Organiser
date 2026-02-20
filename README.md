@@ -21,23 +21,41 @@ This project demonstrates structured application design, file system manipulatio
 **Project Structure**
 
 smart-file-organiser/
+
 │
+
 ├── app/
+
 │   ├── main.py
+
 │   ├── scanner.py
+
 │   ├── classifier.py
+
 │   ├── duplicate_detector.py
+
 │   ├── mover.py
+
 │   ├── interactive.py
+
 │   ├── logger.py
+
 │   ├── utils.py
+
 │   └── config.py
+
 │
+
 ├── tests/
+
 │   ├── test_classifier.py
+
 │   ├── test_duplicates.py
+
 │
+
 ├── requirements.txt
+
 └── README.md
 
 **Installation**
