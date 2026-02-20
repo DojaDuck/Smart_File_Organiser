@@ -7,13 +7,19 @@ This project demonstrates structured application design, file system manipulatio
 **Features**
 
 • Classifies files by extension
+
 • Detects duplicates using SHA256 hashing
+
 • Moves junk and low value files into review folders
+
 • Interactive CLI review for unknown files
+
 • Logs all actions for traceability
+
 • Fully testable with pytest
 
 **Project Structure**
+
 smart-file-organiser/
 │
 ├── app/
