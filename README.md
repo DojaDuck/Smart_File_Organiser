@@ -86,8 +86,8 @@ or
 
 python app/main.py ~/Downloads
 
-**What Happens When You Run It
-**
+**What Happens When You Run It**
+
 The program scans all files in the given directory.
 
 Duplicates are detected using SHA256 hashing.
